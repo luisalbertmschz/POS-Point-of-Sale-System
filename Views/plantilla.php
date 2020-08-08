@@ -20,6 +20,8 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="Views/bower_components/font-awesome/css/font-awesome.min.css">
 
+  <script src="https://kit.fontawesome.com/36bc7112ac.js" crossorigin="anonymous"></script>
+
   <!-- Ionicons -->
   <link rel="stylesheet" href="Views/bower_components/Ionicons/css/ionicons.min.css">
 
@@ -65,7 +67,14 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
+<?php
 
+
+include "Modules/HeaderPrincipal.php";
+
+
+
+?>
 
   <!-- =============================================== -->
 
@@ -76,6 +85,6 @@
 </div>
 <!-- ./wrapper -->
 
-<script src="Js/plantilla.js"></script>
+<script src="Views/Js/plantilla.js"></script>
 </body>
 </html>
