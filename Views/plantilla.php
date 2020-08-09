@@ -70,8 +70,17 @@
 <?php
 
 
+
 include "Modules/HeaderPrincipal.php";
 
+
+include "Modules/SideMenu.php";
+
+
+include "Modules/Contenido.php";
+
+
+include "Modules/Footer.php";
 
 
 ?>
