@@ -77,7 +77,26 @@ include "Modules/HeaderPrincipal.php";
 include "Modules/SideMenu.php";
 
 
-include "Modules/Contenido.php";
+
+if(isset($_GET["ruta"])){
+  
+      if($_GET["ruta"] == "Inicio" ||
+         $_GET["ruta"] == "Usuarios" ||
+         $_GET["ruta"] == "Categorias" ||
+         $_GET["ruta"] == "Productos" ||
+         $_GET["ruta"] == "Clientes" ||
+         $_GET["ruta"] == "AdministrarVentas" ||
+         $_GET["ruta"] == "CrearVenta" ||
+         $_GET["ruta"] == "Reportes" ||
+         $_GET["ruta"] == "Salir"){
+
+        include "Modules/".$_GET["ruta"].".php";
+  }
+
+}
+
+
+
 
 
 include "Modules/Footer.php";

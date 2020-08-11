@@ -6,7 +6,7 @@
 
 			<li class="active">
 
-				<a href="inicio">
+				<a href="Inicio">
 
 					<i class="fa fa-home"></i>
 					<span>Inicio</span>
@@ -17,7 +17,7 @@
 
 			<li>
 
-				<a href="usuarios">
+				<a href="Usuarios">
 
 					<i class="fa fa-user"></i>
 					<span>Usuarios</span>
@@ -28,7 +28,7 @@
 
 			<li>
 
-				<a href="categorias">
+				<a href="Categorias">
 
 					<i class="fa fa-th"></i>
 					<span>Categorías</span>
@@ -39,7 +39,7 @@
 
 			<li>
 
-				<a href="productos">
+				<a href="Productos">
 
 					<i class="fa fa-product-hunt"></i>
 					<span>Productos</span>
@@ -50,7 +50,7 @@
 
 			<li>
 
-				<a href="clientes">
+				<a href="Clientes">
 
 					<i class="fa fa-users"></i>
 					<span>Clientes</span>
@@ -79,7 +79,7 @@
 					
 					<li>
 
-						<a href="#">
+						<a href="AdministrarVentas">
 							
 							<i class="fa fa-circle-o"></i>
 							<span>Administrar ventas</span>
@@ -90,7 +90,7 @@
 
 					<li>
 
-						<a href="#">
+						<a href="CrearVenta">
 							
 							<i class="fa fa-circle-o"></i>
 							<span>Crear venta</span>
@@ -101,7 +101,7 @@
 
 					<li>
 
-						<a href="#">
+						<a href="Reportes">
 							
 							<i class="fa fa-circle-o"></i>
 							<span>Reporte de ventas</span>
