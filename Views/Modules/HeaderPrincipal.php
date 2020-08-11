@@ -2,7 +2,7 @@
 
 <!--  // ---- Logo -----------
  -->
-    <a href="" class="logo">
+    <a href="Inicio" class="logo">
 
     <!-- Logo -->
 
