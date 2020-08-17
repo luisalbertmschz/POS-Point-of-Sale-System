@@ -3,9 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title> StarSoft-POS💳💰</title>
+  <title>MM Sistema de ventas e inventario</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+
+  <link rel="shortcut icon" href="Views/img/Plantilla/sofa.png" type="image/x-icon">
 
 
   <!-- 
@@ -91,9 +94,18 @@ if(isset($_GET["ruta"])){
          $_GET["ruta"] == "Salir"){
 
         include "Modules/".$_GET["ruta"].".php";
-  }
+      }else{
 
-}
+        include "Modules/404.php";
+ 
+      }
+       
+    }else{
+  
+        include "Modules/Inicio.php";
+
+    } 
+
 
 
 
