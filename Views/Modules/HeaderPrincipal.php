@@ -36,9 +36,9 @@
 					
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 						
-						<img src="Views/img/Usuarios/Default/DefaultAvatar.png" class="user-image">
+						<img src="Views/img/Usuarios/Default/APOLO.jpg" class="user-image">
 
-						<span class="hidden-xs">Usuario Administrador</span>
+						<span class="hidden-xs">Usuario Administrador(Apolo)</span>
 
 					</a>
 
