@@ -66,12 +66,16 @@
  -->
 
 
-<body class="hold-transition skin-blue sidebar-collapse sidebar-mini">
+<body class="hold-transition skin-blue sidebar-collapse sidebar-mini login-page">
 <!-- Site wrapper -->
-<div class="wrapper">
+
 
 <?php
 
+if (isset($_SESSION["IniciarSesion"]) && $_SESSION["IniciarSesion"] == "Iniciada"){
+
+
+echo '<div class="wrapper">';
 
 
 include "Modules/HeaderPrincipal.php";
@@ -113,7 +117,11 @@ if(isset($_GET["ruta"])){
 
 include "Modules/Footer.php";
 
+echo'</div>';
 
+}else {
+  include "Modules/LoginPage.php";
+}
 ?>
 
   <!-- =============================================== -->
