@@ -103,9 +103,10 @@ if(isset($_GET["ruta"])){
          $_GET["ruta"] == "AdministrarVentas" ||
          $_GET["ruta"] == "CrearVenta" ||
          $_GET["ruta"] == "Reportes" ||
-         $_GET["ruta"] == "Salir"){
+         $_GET["ruta"] == "LoggedOut"){
 
         include "Modules/".$_GET["ruta"].".php";
+        
       }else{
 
         include "Modules/404.php";
