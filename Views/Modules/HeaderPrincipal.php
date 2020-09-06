@@ -36,9 +36,9 @@
 
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 
-						<img src="Views/img/Usuarios/Default/APOLO.jpg" class="user-image">
+						<img src="Views/img/Usuarios/Default/DefaultUser1.png" class="user-image">
 
-						<span class="hidden-xs">Usuario Administrador(Apolo)</span>
+						<span class="hidden-xs">User Name / Rol </span>
 
 					</a>
 
@@ -50,7 +50,7 @@
 
 							<div class="pull-right">
 
-								<a href="LoggedOut" class="btn btn-default btn-flat">Cerrar Sesión  <i class="fas fa-sign-out-alt"></i></a>
+								<a href="LoggedOut" class="btn btn-default btn-flat">Cerrar Sesión <i class="fas fa-sign-out-alt"></i></a>
 
 							</div>
 
