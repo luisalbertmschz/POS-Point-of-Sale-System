@@ -2,7 +2,7 @@
 
 class ConexionDB{
 
-    public function Conectar(){
+     static public function Conectar(){
 
         $link = new PDO("mysql:host=localhost:3307;dbname=oss_mmdb",
         "root",

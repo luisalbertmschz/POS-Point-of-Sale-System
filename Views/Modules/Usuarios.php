@@ -32,7 +32,7 @@
             <thead>
 
               <tr>
-                <th>#</th>
+                <th style="width: 10px">#</th>
                 <th>Usuario</th>
                 <th>Nombre</th>
                 <th>Foto</th>
@@ -181,14 +181,17 @@
         </div>
         <!-- /.box-body -->
         <div class="box-footer">
-          Footer
+          Footer <button type="button" class="btn btn-danger pull-right btnayuda"><i class="fas fa-hands-helping"></i> Ayuda</button>
         </div>
         <!-- /.box-footer-->
       </div>
       <!-- /.box -->
 
+
+
     </section>
     <!-- /.content -->
+
   </div>
   <!-- /.content-wrapper -->
 
@@ -338,6 +341,16 @@
             <button type="submit" class="btn btn-success" data-dismiss="modal"> Guardar usuario <i class="fa fa-user-check"></i></button>
 
           </div>
+
+          <?php
+
+           $crearUsuario = new ControladorUsuarios();
+
+           $crearUsuario -> ctrCrearUsuario();
+
+
+
+          ?>
 
         </form>
 

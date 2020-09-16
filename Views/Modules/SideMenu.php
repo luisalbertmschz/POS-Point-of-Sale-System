@@ -1,6 +1,6 @@
 <aside class="main-sidebar">
 
-	 <section class="sidebar">
+	<section class="sidebar">
 
 		<ul class="sidebar-menu">
 
@@ -64,23 +64,23 @@
 				<a href="#">
 
 					<i class="fa fa-list-ul"></i>
-					
+
 					<span>Ventas</span>
-					
+
 					<span class="pull-right-container">
-					
-					<i class="fa fa-angle-left pull-right"></i>
+
+						<i class="fa fa-angle-left pull-right"></i>
 
 					</span>
 
 				</a>
 
 				<ul class="treeview-menu">
-					
+
 					<li>
 
 						<a href="AdministrarVentas">
-							
+
 							<i class="fa fa-circle-o"></i>
 							<span>Administrar ventas</span>
 
@@ -91,7 +91,7 @@
 					<li>
 
 						<a href="CrearVenta">
-							
+
 							<i class="fa fa-circle-o"></i>
 							<span>Crear venta</span>
 
@@ -102,7 +102,7 @@
 					<li>
 
 						<a href="Reportes">
-							
+
 							<i class="fa fa-circle-o"></i>
 							<span>Reporte de ventas</span>
 
@@ -114,8 +114,20 @@
 
 			</li>
 
+
+			<li>
+
+				<a href="Documentacion">
+
+					<i class="fa fa-book"></i>
+					<span>Documentacion</span>
+
+				</a>
+
+			</li>
+
 		</ul>
 
-	 </section>
+	</section>
 
 </aside>

@@ -3,7 +3,7 @@
 
 class ControladorPlantilla{
 
-public function strPlantilla(){
+ static public function strPlantilla(){
 
     include "Views/plantilla.php";
 

@@ -80,6 +80,10 @@ session_start();
 
   <script src="Views/bower_components/datatables.net-bs/js/responsive.bootstrap.min.js"></script>
 
+  <!-- SweetAlert2 -->
+
+  <script src="Views/plugins/SweetAlert2/sweetalert2.all.js"></script>
+
 
 
 </head>
@@ -122,7 +126,8 @@ session_start();
         $_GET["ruta"] == "AdministrarVentas" ||
         $_GET["ruta"] == "CrearVenta" ||
         $_GET["ruta"] == "Reportes" ||
-        $_GET["ruta"] == "LoggedOut"
+        $_GET["ruta"] == "LoggedOut" ||
+        $_GET["ruta"] == "Documentacion"
       ) {
 
         include "Modules/" . $_GET["ruta"] . ".php";
