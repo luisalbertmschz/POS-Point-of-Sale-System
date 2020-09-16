@@ -1,6 +1,6 @@
   
   
-    <meta charset="utf-8">
+  <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Content Wrapper. Contains page content -->
@@ -13,7 +13,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Página no encontrada
+        Página no encontrada, qué hiciste 
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i>Inicio</a></li>

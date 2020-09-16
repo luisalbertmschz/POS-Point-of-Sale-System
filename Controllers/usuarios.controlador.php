@@ -4,7 +4,7 @@
 class ControladorUsuarios{
 
 
-   public function  ctrIngresoUsuario(){
+   static public function  ctrIngresoUsuario(){
 
        
         if (isset($_POST["UsuarioIngresado"] ) ) {
@@ -56,6 +56,45 @@ class ControladorUsuarios{
 
 
    }
+
+
+   /*    REGISTRO DE USUARIO */
+
+   static public function  ctrCrearUsuario(){
+        
+     if(isset($_POST["RegistroUsuario"])){
+
+          if (preg_match('/^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚ ]+$/', $_POST["RegistroNombre"]) && 
+              preg_match('/^[a-zA-Z0-9]+$/', $_POST["RegistroUsuario"]) &&
+              preg_match('/^[a-zA-Z0-9]+$/', $_POST["ReistroPassword"])) {
+          
+          }else{
+
+               echo "<script>
+               
+                    Swal.fire({
+                         icon: 'error',
+                         title: 'Oops...',
+                         text: '¡El usuario no debe ir en blanco o llevar caracteres especiales!',
+                         showConfirmButton: true,
+                         confirmButtonText:'Cerrar ',
+                         closeOnConfirm: false
+
+                         })
+
+                     </script>";
+
+
+
+          }
+
+
+     }
+
+
+   }
+
+
 
 
 }
